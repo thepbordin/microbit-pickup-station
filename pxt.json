@@ -1,0 +1,33 @@
+{
+    "name": "microbit-pickup-station",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "pxt-sonar": "github:Microsoft/pxt-sonar#v0.0.5",
+        "tinkercademy-tinker-kit": "github:Tinkertanker/pxt-tinkercademy-tinker-kit#v1.1.1",
+        "radio-broadcast": "*",
+        "servo": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v4.0.17",
+        "tag": "v4.0.17",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/e18cbd92585dcdba1714bda754fe361ca50a3f3f",
+        "target": "4.0.18",
+        "pxt": "7.0.13",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
